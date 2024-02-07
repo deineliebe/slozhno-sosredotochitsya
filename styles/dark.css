@@ -4,6 +4,18 @@
   переключая тему
 */
 
+.theme_dark {
+  --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+  --main-header-color: #DB00FF;
+  --main-header-shadow-color: #FF0070;
+  --main-header-accent-shadow-color: #FF0070;
+  --buttons-color: #FF0070;
+  --buttons-hover-button: rgba(255, 0, 112, 0.4);
+  --colored-bg: #FF0070;
+  --colored-text: #000028;
+}
+
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
