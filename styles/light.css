@@ -12,6 +12,9 @@
   --main-header-accent-shadow-color: #FF0070;
   --buttons-color: #353430;
   --buttons-hover-button: rgba(50, 49, 45, 0.4);
+  --colored-bg: #FF8DCB;
+  --colored-text: #353430;
+  --pararaph-text: #353430;
 } 
 
 .page.theme_light {
