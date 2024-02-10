@@ -4,6 +4,7 @@
   font-size: 18px;
   line-height: 130%;
   background-color: var(--background-color);
+  background-attachment: fixed;
 }
 
 .header {
