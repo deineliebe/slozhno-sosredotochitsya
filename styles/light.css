@@ -1,14 +1,15 @@
 .page.theme_light {
-  --bg-color: #fff1f7;
-  --bg-image: url(../images/cover-image-light.png);
-  --main-header-color: #ffc2e6;
-  --main-header-shadow-color: #ff8dcb;
-  --main-header-accent-shadow-color: #ff0070;
-  --buttons-color: #353430;
-  --buttons-hover-button: rgb(50 49 45 / 0.4);
-  --colored-bg: #ff8dcb;
+  --background-color: #fff1f7;
+  --background-image: url(../images/cover-image-light.png);
+  --decorated-title-color: #ffc2e6;
+  --decorated-title-shadow-color: #ff8dcb;
+  --decorated-title-accent-shadow-color: #ff0070;
+  --main-text-color: #353430;
+  --translucent-text-color: rgba(50, 49, 45, 0.4);
+  --colored-background: #ff8dcb;
   --colored-text: #353430;
-  --paragraph-text: #353430;
-  --rec-text: transparent;
-  --rec-circle: transparent;
+  --section-text: #353430;
+  --sign-text: transparent;
+  --sign-circle: transparent;
+  --link-shadow-color: #f1b2ce;
 }

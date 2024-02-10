@@ -8,7 +8,7 @@
   --translucent-text-color: rgb(255 0 112 / 0.4);
   --colored-background: #ff0070;
   --colored-text: #000028;
-  --paragraph-text: #f1b2ce;
+  --section-text: #f1b2ce;
   --sign-text: #ff0070;
   --sign-circle: #ff0070;
   --link-shadow-color: #ff0070;
@@ -25,7 +25,7 @@
     --translucent-text-color: rgb(255 0 112 / 0.4);
     --colored-background: #ff0070;
     --colored-text: #000028;
-    --paragraph-text: #f1b2ce;
+    --section-text: #f1b2ce;
     --sign-text: #ff0070;
     --sign-circle: #ff0070;
     --link-shadow-color: #ff0070;
