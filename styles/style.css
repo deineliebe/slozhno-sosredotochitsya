@@ -109,7 +109,7 @@
 }
 
 .header__theme-menu-button:focus:not(.header__theme-menu-button_active) {
-  border-block-end: 1px solid var(--main-text-color);
+  border-block-end: 1px solid inherit;
   outline: none;
 }
 
