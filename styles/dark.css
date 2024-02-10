@@ -1,25 +1,33 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-.theme_dark {
-  --bg-color: #000028;
-  --bg-image: url(../images/cover-image-dark.png);
-  --main-header-color: #DB00FF;
-  --main-header-shadow-color: #FF0070;
-  --main-header-accent-shadow-color: #FF0070;
-  --buttons-color: #FF0070;
-  --buttons-hover-button: rgba(255, 0, 112, 0.4);
-  --colored-bg: #FF0070;
+.page.theme_dark {
+  --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
+  --decorated-title-color: #db00ff;
+  --decorated-title-shadow-color: #ff0070;
+  --decorated-title-accent-shadow-color: #ff0070;
+  --main-text-color: #ff0070;
+  --translucent-text-color: rgb(255 0 112 / 0.4);
+  --colored-background: #ff0070;
   --colored-text: #000028;
-  --paragraph-text: #F1B2CE;
+  --paragraph-text: #f1b2ce;
+  --sign-text: #ff0070;
+  --sign-circle: #ff0070;
+  --link-shadow-color: #ff0070;
 }
 
-.page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000028;
+    --background-image: url(../images/cover-image-dark.png);
+    --decorated-title-color: #db00ff;
+    --decorated-title-shadow-color: #ff0070;
+    --decorated-title-accent-shadow-color: #ff0070;
+    --main-text-color: #ff0070;
+    --translucent-text-color: rgb(255 0 112 / 0.4);
+    --colored-background: #ff0070;
+    --colored-text: #000028;
+    --paragraph-text: #f1b2ce;
+    --sign-text: #ff0070;
+    --sign-circle: #ff0070;
+    --link-shadow-color: #ff0070;
+  }
 }
