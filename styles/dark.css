@@ -5,10 +5,10 @@
   --decorated-title-shadow-color: #ff0070;
   --decorated-title-accent-shadow-color: #ff0070;
   --main-text-color: #ff0070;
-  --translucent-text-color: rgb(255 0 112 / 0.4);
+  --translucent-text-color: rgba(255, 0, 112, 0.4);
   --colored-background: #ff0070;
   --colored-text: #000028;
-  --section-text: #f1b2ce;
+  --paragraph-text: #f1b2ce;
   --sign-text: #ff0070;
   --sign-circle: #ff0070;
   --link-shadow-color: #ff0070;
@@ -22,10 +22,10 @@
     --decorated-title-shadow-color: #ff0070;
     --decorated-title-accent-shadow-color: #ff0070;
     --main-text-color: #ff0070;
-    --translucent-text-color: rgb(255 0 112 / 0.4);
+    --translucent-text-color: rgba(255, 0, 112, 0.4);
     --colored-background: #ff0070;
     --colored-text: #000028;
-    --section-text: #f1b2ce;
+    --paragraph-text: #f1b2ce;
     --sign-text: #ff0070;
     --sign-circle: #ff0070;
     --link-shadow-color: #ff0070;

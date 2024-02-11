@@ -8,15 +8,16 @@
   --translucent-text-color: rgba(50, 49, 45, 0.4);
   --colored-background: #ff8dcb;
   --colored-text: #353430;
-  --section-text: #353430;
+  --paragraph-text: #353430;
   --sign-text: transparent;
   --sign-circle: transparent;
   --padding-size: 10px;
-  --link-shadow-color: #f1b2ce;
+  --link-shadow-color: #ff8dcb;
 }
 
 @media (min-width: 768px) {
   :root {
+    --link-shadow-color: #f1b2ce;
     --padding-size: 20px;
   }
 }
